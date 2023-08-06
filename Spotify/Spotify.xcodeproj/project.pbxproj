@@ -25,10 +25,11 @@
 		4663DC472A7F390E00EB70FC /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC462A7F390E00EB70FC /* AuthManager.swift */; };
 		4663DC492A7F391E00EB70FC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC482A7F391E00EB70FC /* APICaller.swift */; };
 		4663DC4B2A7F392B00EB70FC /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC4A2A7F392B00EB70FC /* HapticsManager.swift */; };
-		4663DC4D2A7F394E00EB70FC /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC4C2A7F394E00EB70FC /* Playlist.swift */; };
-		4663DC4F2A7F395A00EB70FC /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC4E2A7F395A00EB70FC /* AudioTrack.swift */; };
-		4663DC512A7F396400EB70FC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC502A7F396400EB70FC /* Artist.swift */; };
-		4663DC532A7F396F00EB70FC /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC522A7F396F00EB70FC /* UserProfile.swift */; };
+		4663DC5A2A7F587600EB70FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC592A7F587600EB70FC /* Extensions.swift */; };
+		4663DC5F2A7F5A1000EB70FC /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC5B2A7F5A1000EB70FC /* AudioTrack.swift */; };
+		4663DC602A7F5A1000EB70FC /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC5C2A7F5A1000EB70FC /* Playlist.swift */; };
+		4663DC612A7F5A1000EB70FC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC5D2A7F5A1000EB70FC /* Artist.swift */; };
+		4663DC622A7F5A1000EB70FC /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663DC5E2A7F5A1000EB70FC /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +53,11 @@
 		4663DC462A7F390E00EB70FC /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthManager.swift; path = Spotify/Managers/AuthManager.swift; sourceTree = SOURCE_ROOT; };
 		4663DC482A7F391E00EB70FC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICaller.swift; path = Spotify/Managers/APICaller.swift; sourceTree = SOURCE_ROOT; };
 		4663DC4A2A7F392B00EB70FC /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticsManager.swift; path = Spotify/Managers/HapticsManager.swift; sourceTree = SOURCE_ROOT; };
-		4663DC4C2A7F394E00EB70FC /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Playlist.swift; path = Spotify/Controllers/Playlist.swift; sourceTree = SOURCE_ROOT; };
-		4663DC4E2A7F395A00EB70FC /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioTrack.swift; path = Spotify/Controllers/AudioTrack.swift; sourceTree = SOURCE_ROOT; };
-		4663DC502A7F396400EB70FC /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Artist.swift; path = Spotify/Controllers/Artist.swift; sourceTree = SOURCE_ROOT; };
-		4663DC522A7F396F00EB70FC /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Spotify/Controllers/UserProfile.swift; sourceTree = SOURCE_ROOT; };
+		4663DC592A7F587600EB70FC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4663DC5B2A7F5A1000EB70FC /* AudioTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		4663DC5C2A7F5A1000EB70FC /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		4663DC5D2A7F5A1000EB70FC /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4663DC5E2A7F5A1000EB70FC /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,21 +95,10 @@
 				46078C462A7E9F8900116983 /* ViewModels */,
 				46078C452A7E9F8200116983 /* Controllers */,
 				46078C442A7E9F7C00116983 /* Views */,
-				46078C432A7E9F7200116983 /* Models */,
 				46078C3D2A7E9DDD00116983 /* Info.plist */,
+				4663DC582A7F42B000EB70FC /* Models */,
 			);
 			path = Spotify;
-			sourceTree = "<group>";
-		};
-		46078C432A7E9F7200116983 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4663DC4C2A7F394E00EB70FC /* Playlist.swift */,
-				4663DC4E2A7F395A00EB70FC /* AudioTrack.swift */,
-				4663DC502A7F396400EB70FC /* Artist.swift */,
-				4663DC522A7F396F00EB70FC /* UserProfile.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		46078C442A7E9F7C00116983 /* Views */ = {
@@ -140,6 +131,7 @@
 				46078C382A7E9DDD00116983 /* Assets.xcassets */,
 				46078C2F2A7E9DDC00116983 /* AppDelegate.swift */,
 				46078C312A7E9DDC00116983 /* SceneDelegate.swift */,
+				4663DC592A7F587600EB70FC /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -177,6 +169,17 @@
 				4663DC4A2A7F392B00EB70FC /* HapticsManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		4663DC582A7F42B000EB70FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4663DC5D2A7F5A1000EB70FC /* Artist.swift */,
+				4663DC5B2A7F5A1000EB70FC /* AudioTrack.swift */,
+				4663DC5C2A7F5A1000EB70FC /* Playlist.swift */,
+				4663DC5E2A7F5A1000EB70FC /* UserProfile.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,23 +253,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4663DC332A7F384700EB70FC /* SearchViewController.swift in Sources */,
-				4663DC4D2A7F394E00EB70FC /* Playlist.swift in Sources */,
 				4663DC472A7F390E00EB70FC /* AuthManager.swift in Sources */,
 				4663DC3A2A7F389200EB70FC /* WelcomeViewController.swift in Sources */,
 				4663DC3E2A7F38AE00EB70FC /* ProfileViewController.swift in Sources */,
 				4663DC312A7F382800EB70FC /* TabBarViewController.swift in Sources */,
+				4663DC612A7F5A1000EB70FC /* Artist.swift in Sources */,
 				46078C342A7E9DDC00116983 /* HomeViewController.swift in Sources */,
 				4663DC4B2A7F392B00EB70FC /* HapticsManager.swift in Sources */,
-				4663DC4F2A7F395A00EB70FC /* AudioTrack.swift in Sources */,
 				4663DC382A7F388200EB70FC /* AuthViewController.swift in Sources */,
+				4663DC602A7F5A1000EB70FC /* Playlist.swift in Sources */,
 				46078C302A7E9DDC00116983 /* AppDelegate.swift in Sources */,
 				4663DC352A7F385C00EB70FC /* LibraryViewController.swift in Sources */,
-				4663DC532A7F396F00EB70FC /* UserProfile.swift in Sources */,
+				4663DC5A2A7F587600EB70FC /* Extensions.swift in Sources */,
 				4663DC422A7F38C300EB70FC /* PlaylistViewController.swift in Sources */,
-				4663DC512A7F396400EB70FC /* Artist.swift in Sources */,
 				46078C322A7E9DDC00116983 /* SceneDelegate.swift in Sources */,
 				4663DC402A7F38B600EB70FC /* PlayerViewController.swift in Sources */,
+				4663DC5F2A7F5A1000EB70FC /* AudioTrack.swift in Sources */,
 				4663DC442A7F38D100EB70FC /* SearchResultViewController.swift in Sources */,
+				4663DC622A7F5A1000EB70FC /* UserProfile.swift in Sources */,
 				4663DC492A7F391E00EB70FC /* APICaller.swift in Sources */,
 				4663DC3C2A7F389E00EB70FC /* SettingsViewController.swift in Sources */,
 			);
